@@ -55,16 +55,16 @@
      *  > last([1, 2, 3, 4, 5]) // return 5
      */
 
-            // function first(input) {
-            //    console.log(input[0]);
-            // }
-            // function second(input) {
-            //     console.log(input[1]);
-            // }
-            // function last(input) {
-            //     console.log(input[4]);
-            // }
-            // first([1, 2, 3, 4, 5])
-            // second([1, 2, 3, 4, 5])
-            // last([1, 2, 3, 4, 5])
+            function first(input) {
+               return input[0];
+            }
+            function second(input) {
+                return input[1];
+            }
+            function last(input) {
+                return input[4];
+            }
+            console.log(first([1, 2, 3, 4, 5]))
+            console.log(second([1, 2, 3, 4, 5]))
+            console.log(last([1, 2, 3, 4, 5]))
 })();
