@@ -1,3 +1,5 @@
+
+
 (function(){
     "use strict";
 
@@ -29,6 +31,9 @@
      * array.
      */
 
+            // for (let i = 0; i < names.length; i++) {
+            //     console.log(names[i]);
+            // }
     /**
      * TODO:
      * Refactor your above code to use a `forEach` loop
@@ -48,4 +53,16 @@
      *  > last([1, 2, 3, 4, 5]) // return 5
      */
 
+            // function first(input) {
+            //    console.log(input[0]);
+            // }
+            // function second(input) {
+            //     console.log(input[1]);
+            // }
+            // function last(input) {
+            //     console.log(input[4]);
+            // }
+            // first([1, 2, 3, 4, 5])
+            // second([1, 2, 3, 4, 5])
+            // last([1, 2, 3, 4, 5])
 })();
